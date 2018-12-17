@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">MLA Suresh Lad</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">होम</string>
+    <string name="tab_text_2">परिचय</string>
+    <string name="tab_text_3">विकासकार्य</string>
+    <string name="tab_text_4">विकासकार्य</string>
+    <string name="titlemarathi">"आमदार श्री. सुरेशभाऊ लाड"</string>
+    <string name="titlehome">"श्री. सुरेशभाऊ लाड"</string>
+    <string name="subtitlehome">"आमदार, कर्जत-खालापूर विधानसभा मतदार संघ"</string>
+
+    <string name="intro">संक्षिप्त परिचय :-</string>
+    <string name="intro1">"नाव :- श्री. सुरेशभाऊ नारायण लाड\n
+जन्मदिनांक :- ९ ऑक्टोबर १९५६\n
+जन्मठिकाण :- दहिवली तर्फ नीड, तालुका कर्जत, जिल्हा रायगड\n
+धर्म :- हिंदू - मराठा\n
+कायमचा पत्ता :- मु. दहिवली तर्फ नीड, तालुका कर्जत, जिल्हा रायगड, पिन -४१०२०१, दूरध्वनी क्र. ०२१४८२२२३२९\n
+पत्रव्यवहाराचा पत्ता :- मु. दहिवली तर्फ नीड, तालुका कर्जत, जिल्हा रायगड, पिन -४१०२०१\n
+मुंबईतील पत्ता :- अ-४५, 'मनोरा', आमदार निवास, मुंबई, दूरध्वनी क्र. २८५४५४५\n
+शिक्षण :- १०वी\n
+ज्ञात भाषा :- मराठी, हिंदी\n
+व्यवसाय :- शेती\n
+विवाहित/अविवाहित :- विवाहित\n
+पत्नीचे नाव :- शुभांगी\n
+अपत्ये :- एकूण ४, मुलगा - १, मुली - ३\n
+मतदार संघ :- क्रमांक १८९, गाव - कर्जत, जिल्हा - रायगड\n
+राजकीय पक्ष :- राष्ट्रवादी काँग्रेस"</string>
+    <string name="intro2">राजकीय कार्य</string>
+    <string name="intro3">"सरपंच - दहिवली ग्रामपंचायत :- १९८२-१९९२\n
+सभापती - कर्जत पंचायत समिती :- १९९२-१९९७\n
+आमदार - खालापूर विधानसभा मतदार संघ :- १९९९-२००४, २००९-२०१४, २०१४-२०१९\n
+पक्ष संघटनेतील कार्य\n
+अध्यक्ष, कर्जत तालुका युवक काँग्रेस कमिटी :- १९८६-१९९१\n
+अध्यक्ष, कर्जत तालुका काँग्रेस कमिटी :- १९९७-१९९९\n
+अध्यक्ष, कर्जत खालापूर विधानसभा मतदार संघ, राष्ट्रवादी काँग्रेस, २००४ पासून\n
+१९९९ साली पक्ष स्थापनेपासून पक्ष संघटना वाढविण्यासाठी प्रयत्न\n
+ग्रामपंचायत - सरपंच, दहिवली ग्रामपंचायत\n
+सरपंचपदाच्या कालावधीत नळपाणी पुरवठा योजना साकारली. विकासासाठी दहिवली ग्रामपंचायत नगर परिषदेमध्ये विलीन केली.\n
+पंचायत समिती - १९९२-१९९७ या कालावधीत सभापती असताना विविध योजनांच्या माध्यमातून तालुक्याच्या सर्वांगीण विकासाचा प्रयत्न केला.\n
+' आदर्श शिक्षक ' पुरस्कार सुरु करून शिक्षकांना प्रोत्साहित करण्याचा प्रयत्न\n
+सहकारी संस्था - \n
+संचालक - कृषी उत्पन्न बाजार समिती, कर्जत १९९२-१९९७\n
+संचालक - कर्जत सहकारी भात गिरणी , १९९२-१९९७\n
+संचालक - महाराष्ट्र कृषी व ग्रामीण विकास बँक, १९८६-१९९१"</string>
+    <string name="intro4">सामाजिक कार्य -</string>
+    <string name="intro5">कर्जत तालुका वीट उत्पादक संघ स्थापन करून संस्थापक अध्यक्ष म्हणून वीट उत्पादकांना संघटित करण्याचे काम केले. मा. शरद पवार साहेबांच्या वाढदिवसानिमित्त रक्तदान शिबिरे आयोजित करणे, विविध उपक्रम राबवून जनजागृती करण्याचा प्रयत्न केला व करीत आहेत. </string>
+    <string name="intro6">शैक्षणिक व सांस्कृतिक कार्य :</string>
+    <string name="intro7">"उपाध्यक्ष, कर्जत तालुका विद्या प्रसारक मंडळ\n
+अध्यक्ष, सरस्वती शिक्षण प्रसारक मंडळ \n
+कर्जत तालुका विद्या प्रसारक मंडळाच्या माध्यमातून स्वातंत्र्यसैनिक दत्तात्रय डोंबे विद्या निकेतन विद्यालय सुरु करून बालवर्ग ते १०वी पर्यंतची शिक्षणाची सोया केली.\n
+दहावीत व  बारावीच्या तसेच शिष्यवृत्ती परीक्षांमध्ये गुणवत्ता प्राप्त करणाऱ्या विद्यार्थ्यांचा सत्कार सोहळा करून प्रोत्साहित करण्याचा प्रयत्न दरवर्षी करीत आहेत. \n
+दहावी व बारावी नंतर काय ? असा प्रश्न विद्यार्थी व पालकांना नेहमीच असतो. त्यासाठी व्यवसाय मार्गदर्शन शिबिराचे आयोजन करून ' यशाची गुरुकिल्ली ' या व्यवसाय मार्गदर्शिकेचे प्रकाशन करून विद्यार्थी व पालकांच्या समस्या सोडविण्याचा प्रयत्न केला. निबंध स्पर्धांचे आयोजन केले.\n
+मा. शरद पवार साहेबांच्या वाढदिवसानिमित्त स्वाभिमान सप्ताह साजरा करताना मॅरेथॉन स्पर्धा, कबड्डी स्पर्धा, कुस्ती स्पर्धा, क्रिकेट स्पर्धा आयोजित करून तालुक्यातील तसेच जिल्ह्यातील खेळाडूंना प्रोत्साहित करण्याचा प्रयत्न गेली दहा वर्षे करीत आहेत. "</string>
+    <string name="intro8">"छंद / आवड :-"</string>
+    <string name="intro9">"सामाजिक कार्य"</string>
+    <string name="intro10">"प्रवास :-"</string>
+    <string name="intro11">"प्रवास करण्यास खूप आवडते. ज्या दिवशी घरी किंवा कार्यालयात नसतात, त्या दिवशी विविध समारंभांच्या निमित्ताने खूप प्रवास होतो. कामांच्या निमित्ताने चारचाकी वाहन, रेल्वे व विमानाने प्रवास करतात. मात्र प्रवास करताना कधीही कंटाळा येत नाही."</string>
+    <string name="intro12">"विशेष उल्लेखनीय कार्य :-"</string>
+    <string name="intro13">"कर्जत नागरी वाढीव पाणी पुरवठा योजना साकारली. 'ड' सत्ता प्रकार मार्गी लावला. शेतकऱ्यांसाठी उपयुक्त राजानाला प्रकल्पाची वेळोवेळी दुरुस्ती केली. नेरळ-माथेरान घाट रस्ता रुंदीकरण व डांबरीकरण केले. आधारभूत किंमतीत भात खरेदी केंद्र सुरु केले. चौक परिसरात शेतकऱ्यांना उध्वस्त करून होऊ घातलेली मेगासिटी शेतकऱ्यांच्या हितासाठी व आग्रहास्तव शासनाकडून रद्द करून घेतली. माथेरान हे भारतातच नव्हे तर जागतिक पर्यटन क्षेत्र व्हावे म्हणून विशेष प्रयत्न. "</string>
+
+
+    <string-array name="imgs">
+        <item>@drawable/scan0001</item>
+        <item>@drawable/scan0002</item>
+        <item>@drawable/scan0003</item>
+        <item>@drawable/scan0004</item>
+        <item>@drawable/scan0005</item>
+        <item>@drawable/scan0006</item>
+        <item>@drawable/scan0007</item>
+        <item>@drawable/scan0008</item>
+        <item>@drawable/scan0009</item>
+        <item>@drawable/scan0010</item>
+        <item>@drawable/scan0011</item>
+        <item>@drawable/scan0012</item>
+        <item>@drawable/scan0013</item>
+        <item>@drawable/scan0014</item>
+        <item>@drawable/scan0015</item>
+        <item>@drawable/scan0016</item>
+        <item>@drawable/scan0017</item>
+        <item>@drawable/scan0018</item>
+        <item>@drawable/scan0019</item>
+        <item>@drawable/scan0020</item>
+        <item>@drawable/scan0021</item>
+        <item>@drawable/scan0022</item>
+        <item>@drawable/scan0023</item>
+        <item>@drawable/scan0024</item>
+        <item>@drawable/scan0025</item>
+        <item>@drawable/scan0026</item>
+        <item>@drawable/scan0027</item>
+        <item>@drawable/scan0028</item>
+        <item>@drawable/scan0029</item>
+        <item>@drawable/scan0030</item>
+        <item>@drawable/scan0031</item>
+        <item>@drawable/scan0032</item>
+        <item>@drawable/scan0033</item>
+        <item>@drawable/scan0034</item>
+        <item>@drawable/scan0035</item>
+        <item>@drawable/scan0036</item>
+        <item>@drawable/scan0037</item>
+        <item>@drawable/scan0038</item>
+        <item>@drawable/scan0039</item>
+        <item>@drawable/scan0040</item>
+        <item>@drawable/scan0041</item>
+        <item>@drawable/scan0042</item>
+        <item>@drawable/scan0043</item>
+        <item>@drawable/scan0044</item>
+        <item>@drawable/scan0045</item>
+        <item>@drawable/scan0046</item>
+        <item>@drawable/scan0047</item>
+        <item>@drawable/scan0048</item>
+        <item>@drawable/scan0049</item>
+        <item>@drawable/scan0050</item>
+        <item>@drawable/scan0051</item>
+        <item>@drawable/scan0052</item>
+        <item>@drawable/scan0053</item>
+        <item>@drawable/scan0054</item>
+        <item>@drawable/scan0055</item>
+        <item>@drawable/scan0056</item>
+        <item>@drawable/scan0057</item>
+        <item>@drawable/scan0058</item>
+        <item>@drawable/scan0059</item>
+        <item>@drawable/scan0060</item>
+        <item>@drawable/scan0061</item>
+        <item>@drawable/scan0062</item>
+        <item>@drawable/scan0063</item>
+        <item>@drawable/scan0064</item>
+        <item>@drawable/scan0065</item>
+        <item>@drawable/scan0066</item>
+        <item>@drawable/scan0067</item>
+        <item>@drawable/scan0068</item>
+        <item>@drawable/scan0069</item>
+        <item>@drawable/scan0070</item>
+        <item>@drawable/scan0071</item>
+        <item>@drawable/scan0072</item>
+        <item>@drawable/scan0073</item>
+        <item>@drawable/scan0074</item>
+        <item>@drawable/scan0075</item>
+        <item>@drawable/scan0076</item>
+        <item>@drawable/scan0077</item>
+        <item>@drawable/scan0078</item>
+        <item>@drawable/scan0079</item>
+        <item>@drawable/scan0080</item>
+        <item>@drawable/scan0081</item>
+        <item>@drawable/scan0082</item>
+        <item>@drawable/scan0083</item>
+        <item>@drawable/scan0084</item>
+        <item>@drawable/scan0085</item>
+        <item>@drawable/scan0086</item>
+        <item>@drawable/scan0087</item>
+        <item>@drawable/scan0088</item>
+        <item>@drawable/scan0089</item>
+        <item>@drawable/scan0090</item>
+        <item>@drawable/scan0091</item>
+        <item>@drawable/scan0092</item>
+
+
+    </string-array>
+</resources>
