@@ -131,6 +131,9 @@ public class Main2Activity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main2, container, false);
+
+            LinearLayout ll=rootView.findViewById(R.id.ll);
+
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             ListView lv=rootView.findViewById(R.id.lv);
             LinearLayout llIntro=rootView.findViewById(R.id.llIntro);
@@ -138,12 +141,13 @@ public class Main2Activity extends AppCompatActivity {
             wv.getSettings().setJavaScriptEnabled(true);
             wv.setWebViewClient(new WebViewClient());
             //wv.loadUrl("http://www.google.com");
-            wv.loadUrl("file:///android_asset/index.html");
+            wv.loadUrl("file:///android_asset/index - Copy.html");
 
             //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             if(getArguments().getInt(ARG_SECTION_NUMBER)==1) {
                 textView.setVisibility(View.VISIBLE);
-                textView.setText("Home page");
+                textView.setBackgroundResource(R.drawable.sl11);
+                //textView.setText("Home page");
                 wv.setVisibility(View.GONE);
                 llIntro.setVisibility(View.GONE);
             }
