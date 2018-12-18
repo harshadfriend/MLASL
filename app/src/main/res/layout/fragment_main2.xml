@@ -15,9 +15,9 @@
     <TextView
         android:visibility="gone"
         android:text="@string/home"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:gravity="center"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:id="@+id/section_label"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
