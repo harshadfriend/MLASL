@@ -143,7 +143,7 @@ public class Main2Activity extends AppCompatActivity {
             //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             if(getArguments().getInt(ARG_SECTION_NUMBER)==1) {
                 textView.setVisibility(View.VISIBLE);
-                textView.setText("Home page");
+                //textView.setText("Home page");
                 wv.setVisibility(View.GONE);
                 llIntro.setVisibility(View.GONE);
             }
