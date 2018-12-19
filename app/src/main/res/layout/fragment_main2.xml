@@ -14,11 +14,9 @@
     android:layout_height="match_parent">
     <TextView
         android:visibility="gone"
-
         android:text="@string/home"
         android:textSize="22dp"
         android:gravity="center"
-
         android:textColor="#000"
         android:id="@+id/section_label"
         android:layout_width="match_parent"

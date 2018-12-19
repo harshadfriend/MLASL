@@ -145,6 +145,7 @@ public class Main2Activity extends AppCompatActivity {
 
             //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             if(getArguments().getInt(ARG_SECTION_NUMBER)==1) {
+                rootView = inflater.inflate(R.layout.home, container, false);
                 textView.setVisibility(View.VISIBLE);
                 textView.setBackgroundResource(R.drawable.sl11);
                 //textView.setText("Home page");
