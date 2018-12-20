@@ -3,6 +3,7 @@ package karjatonline.mla;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -135,6 +136,8 @@ public class Main2Activity extends AppCompatActivity {
             LinearLayout ll=rootView.findViewById(R.id.ll);
 
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+
+
             ListView lv=rootView.findViewById(R.id.lv);
             LinearLayout llIntro=rootView.findViewById(R.id.llIntro);
             WebView wv=rootView.findViewById(R.id.wv);
@@ -153,8 +156,10 @@ public class Main2Activity extends AppCompatActivity {
             //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             if(getArguments().getInt(ARG_SECTION_NUMBER)==1) {
                 rootView = inflater.inflate(R.layout.home, container, false);
-                textView.setVisibility(View.VISIBLE);
-                textView.setBackgroundResource(R.drawable.sl11);
+                TextView tvHome = (TextView) rootView.findViewById(R.id.tvHome);
+                //textView.setVisibility(View.VISIBLE);
+                tvHome.setBackgroundColor(Color.parseColor("#55ffffff"));
+                //textView.setBackgroundResource(R.drawable.sl11);
                 //textView.setText("Home page");
                 wv.setVisibility(View.GONE);
                 llIntro.setVisibility(View.GONE);

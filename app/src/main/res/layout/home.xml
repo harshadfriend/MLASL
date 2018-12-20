@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/sl11"
+    android:padding="5dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -12,9 +13,9 @@
         android:layout_above="@+id/space"
         android:padding="11dp"
         android:textStyle="bold"
-        android:textColor="#070"
+        android:textColor="#550"
         android:text="@string/home"
-        android:textSize="20dp"
+        android:textSize="19dp"
         android:gravity="center"
         android:id="@+id/tvHome"
         android:layout_width="match_parent"
