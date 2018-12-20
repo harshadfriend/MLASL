@@ -143,6 +143,13 @@ public class Main2Activity extends AppCompatActivity {
             //wv.loadUrl("http://www.google.com");
             wv.loadUrl("file:///android_asset/index - Copy.html");
 
+            WebView wv1=rootView.findViewById(R.id.wv1);
+            wv1.getSettings().setJavaScriptEnabled(true);
+            wv1.getSettings().setDomStorageEnabled(true);
+            wv1.setWebViewClient(new WebViewClient());
+            wv1.loadUrl("https://www.facebook.com/pg/udaybhai.ncp/posts/");
+            //wv1.loadUrl("file:///android_asset/index - Copy.html");
+
             //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             if(getArguments().getInt(ARG_SECTION_NUMBER)==1) {
                 rootView = inflater.inflate(R.layout.home, container, false);
@@ -164,7 +171,18 @@ public class Main2Activity extends AppCompatActivity {
                 textView.setVisibility(View.GONE);
                 llIntro.setVisibility(View.GONE);
                 wv.setVisibility(View.VISIBLE);
-                lv.setVisibility(View.VISIBLE);
+                //lv.setVisibility(View.VISIBLE);
+
+//                ImageListAdapter adp=new ImageListAdapter(getContext(),R.layout.imagelistlayout,getData());
+//                lv.setAdapter(adp);
+            }
+            if(getArguments().getInt(ARG_SECTION_NUMBER)==4) {
+
+                textView.setVisibility(View.GONE);
+                llIntro.setVisibility(View.GONE);
+                wv.setVisibility(View.GONE);
+                wv1.setVisibility(View.VISIBLE);
+                //lv.setVisibility(View.VISIBLE);
 
 //                ImageListAdapter adp=new ImageListAdapter(getContext(),R.layout.imagelistlayout,getData());
 //                lv.setAdapter(adp);

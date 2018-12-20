@@ -8,6 +8,7 @@
 
 
     <TextView
+        android:background="@drawable/backgroundhome"
         android:layout_above="@+id/space"
         android:padding="11dp"
         android:textStyle="bold"
