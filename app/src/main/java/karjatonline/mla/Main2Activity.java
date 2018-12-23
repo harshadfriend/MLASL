@@ -135,8 +135,6 @@ public class Main2Activity extends AppCompatActivity {
 
             LinearLayout ll=rootView.findViewById(R.id.ll);
 
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-
 
             ListView lv=rootView.findViewById(R.id.lv);
             LinearLayout llIntro=rootView.findViewById(R.id.llIntro);
@@ -149,20 +147,16 @@ public class Main2Activity extends AppCompatActivity {
             wv1.loadUrl("https://www.facebook.com/pg/udaybhai.ncp/posts/");
             wv1.loadUrl("file:///android_asset/index - Copy.html");
 */
-            //textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
             if(getArguments().getInt(ARG_SECTION_NUMBER)==1) {
                 rootView = inflater.inflate(R.layout.home, container, false);
                 TextView tvHome = (TextView) rootView.findViewById(R.id.tvHome);
                 //textView.setVisibility(View.VISIBLE);
                 tvHome.setBackgroundColor(Color.parseColor("#55ffffff"));
-                //textView.setBackgroundResource(R.drawable.sl11);
-                //textView.setText("Home page");
-//                wv.setVisibility(View.GONE);
                 llIntro.setVisibility(View.GONE);
             }
             if(getArguments().getInt(ARG_SECTION_NUMBER)==2) {
-//                textView.setText("Introduction");
-                textView.setVisibility(View.GONE);
+
 //                wv.setVisibility(View.GONE);
                 llIntro.setVisibility(View.VISIBLE);
             }
@@ -176,15 +170,11 @@ public class Main2Activity extends AppCompatActivity {
 
                 wv.getSettings().setDisplayZoomControls(false);
                 wv.getSettings().setBuiltInZoomControls(true);
-           //     wv.loadUrl("http://www.google.com");
-            wv.loadUrl("file:///android_asset/index - Copy.html");
+                wv.loadUrl("https://wwwkarjatonlinecom.000webhostapp.com/mla/vikaskarya.html");
+//                 wv.loadUrl("file:///android_asset/index - Copy.html");
 //            wv.loadUrl("file:///android_asset/test.html");
 
 
-                textView.setText("Work");
-                textView.setVisibility(View.GONE);
-                llIntro.setVisibility(View.GONE);
-                wv.setVisibility(View.VISIBLE);
                 //lv.setVisibility(View.VISIBLE);
 
 //                ImageListAdapter adp=new ImageListAdapter(getContext(),R.layout.imagelistlayout,getData());
