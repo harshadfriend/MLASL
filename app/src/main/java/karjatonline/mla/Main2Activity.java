@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -21,6 +22,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ArrayAdapter;
@@ -163,16 +165,35 @@ public class Main2Activity extends AppCompatActivity {
 
             if(getArguments().getInt(ARG_SECTION_NUMBER)==3) {
                 rootView = inflater.inflate(R.layout.vikaskarya, container, false);
-                WebView wv=rootView.findViewById(R.id.wvVikaskarya);
-                wv.getSettings().setJavaScriptEnabled(true);
 
-                wv.setWebViewClient(new WebViewClient());
+                final WebView wv=rootView.findViewById(R.id.wvVikaskarya);
+                final SwipeRefreshLayout srl=rootView.findViewById(R.id.swipe);
+
+                wv.getSettings().setJavaScriptEnabled(true);
+                wv.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
+                wv.setWebViewClient(new WebViewClient(){
+                    @Override
+                    public void onPageFinished(WebView view, String url) {
+                        srl.setRefreshing(false);
+                    }
+                });
 
                 wv.getSettings().setDisplayZoomControls(false);
                 wv.getSettings().setBuiltInZoomControls(true);
                 wv.loadUrl("https://wwwkarjatonlinecom.000webhostapp.com/mla/vikaskarya.html");
 //                 wv.loadUrl("file:///android_asset/index - Copy.html");
 //            wv.loadUrl("file:///android_asset/test.html");
+
+
+                srl.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+                    @Override
+                    public void onRefresh() {
+                        srl.setRefreshing(true);
+                        wv.reload();
+                    }
+                });
+
+
 
 
                 //lv.setVisibility(View.VISIBLE);
@@ -188,7 +209,8 @@ public class Main2Activity extends AppCompatActivity {
                 wvsm.setWebViewClient(new WebViewClient());
                 wvsm.getSettings().setDisplayZoomControls(false);
                 wvsm.getSettings().setBuiltInZoomControls(true);
-                wvsm.loadUrl("https://www.facebook.com/pg/udaybhai.ncp/posts/");
+                wvsm.loadUrl("file:///android_asset/fpage.html");
+//                wvsm.loadUrl("https://www.facebook.com/pg/udaybhai.ncp/posts/");
                 //lv.setVisibility(View.VISIBLE);
 
 //                ImageListAdapter adp=new ImageListAdapter(getContext(),R.layout.imagelistlayout,getData());
